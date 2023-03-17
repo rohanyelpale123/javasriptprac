@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("images//im1.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	width: 100%;
+	height: 50vh;
+	background: rgba(0, 0, 0, .0);
+
+}
+.box{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.form{
+	height: 130vh;
+	width: 30%;
+	background: rgba(0, 0, 0, .8);
+	color: wheat;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+#btn{
+	padding: 5px 40px;
+	background: transparent;
+	border: 1px solid blue;
+	border-radius: 10px;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-left: 330px;
+}
+#btn:hover{
+	background: blue;
+	box-shadow: 0 0 8px 2px blue;
+	color: black;
+
+	transition: .5s;
+}
+h6{
+	color: red;
+	font-weight: 500;
+}
+h1{
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+label{
+	margin-left: 38px;
+}
+.input-control {
+	display: flex;
+	flex-direction: column;
+}
+.input-control input{
+	border: 2px solid #fff;
+	border-radius: 4px;
+	display: block;
+	padding: 5px;
+	width: 70%;
+	margin-left: 38px;
+}
+.input-controliput:focus {
+	outline: 0;
+}
+.input-control .success input{
+	border-color: #09c372;
+}
+.input-control  span{
+	color: red;
+}
+.input-control .error{
+	color: red;
+	font-size: 9px;
+	font-weight: 13px;
+}
+button{
+	background: transparent;
+	padding: 5px 30px;
+	border: 1px solid blue;
+	border-radius: 20px;
+	margin: 5px 0 0 50px;
+
+}
+button:hover{
+	background: blue;
+	cursor: pointer;
+	box-shadow: 0 0 9px 2px blue;
+	transition: .5s;
+}

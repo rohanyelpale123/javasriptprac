@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javasript form</title>
+</head>
+<body>
+
+<button onclick="showform()">Regitration form</button>
+
+<script type="text/javascript">
+	function showform() {
+		var div=document.createElement('div');
+		var form=document.createElement('form');
+
+		div.appendChild(form);
+		var fieldset=document.createElement('fieldset');
+
+		
+
+         
+		var label0=document.createElement('label');
+		// label0.setAttribute("display","block");		
+		label0.innerHTML="Your Name:";
+		form.appendChild(label0);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var input1=document.createElement('input');
+		input1.setAttribute('type','text');
+		input1.setAttribute('placeholder','Enter your name...');
+		form.appendChild(input1);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+		var br=document.createElement('br');
+		form.appendChild(br);
+         
+
+		var label1=document.createElement('label');
+		label1.innerHTML="    EmailId:";
+		form.appendChild(label1);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var input2=document.createElement('input');
+		input2.setAttribute('type','email');
+		input2.setAttribute('placeholder','Enter your EmailId...');
+		form.appendChild(input2);
+         
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+
+		var label0=document.createElement('label');
+		label0.innerHTML="Your password:";
+		form.appendChild(label0);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var input1=document.createElement('input');
+		input1.setAttribute('type','password');
+		input1.setAttribute('placeholder','Enter your password...');
+		form.appendChild(input1);
+          
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+
+		var label0=document.createElement('label');
+		label0.innerHTML="Mobile No:";
+		form.appendChild(label0);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var input1=document.createElement('input');
+		input1.setAttribute('type','tell');
+		input1.setAttribute('placeholder','Enter your Mobile no...');
+		form.appendChild(input1);
+
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+		var br=document.createElement('br');
+		form.appendChild(br);
+
+
+
+
+		var label0=document.createElement('input');
+		label0.setAttribute("type","submit");
+		label0.innerHTML="submit";
+		form.appendChild(label0);
+		
+
+
+		document.body.appendChild(div);
+	}
+
+</script>
+</body>
+</html>

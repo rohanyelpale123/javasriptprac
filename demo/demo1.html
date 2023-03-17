@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript function</title>
+	<script type="text/javascript" src="demo.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style type="text/css">
+      i{
+         font-size: 50px;
+         font-weight: 1000;
+         margin: 100px 50%;
+      }
+      label,input{
+  display: block;
+  margin-bottom: 10px;
+      }
+      form{
+         width: 25%;
+
+      }
+      
+   
+      input:valid{
+         border: 1px solid green;
+      }
+      input:invalid{
+         border:1px solid red;
+      }
+      /*i:hover{
+         color: red;
+         cursor: pointer;
+         
+      }*/
+   </style>
+</head>
+<body>
+	<!-- <h1 id="box" style="margin: 10px auto;width: 450px;"></h1> -->
+	<!-- <h1 class="box">welcome to javaunder tree</h1> -->
+	<!-- <h1 class="box">hi i am goving to learn javascript</h1> -->
+<!-- </h1> -->
+<!-- <i class="fa fa-commenting-o" aria-hidden="true"></i> -->
+<!-- <center>
+<form >
+   <fieldset>
+      <legend>registretion form</legend>
+      <label>Student Name:<span style="color: red;">*</span></label>
+      <input type="text" name="" id="n" placeholder="enter your name">
+      <label>password:</label>
+      <input type="password" minlength="4" maxlength="8" name="" id="p" required placeholder="enter your password">
+      <label>Mobile No:</label>
+      <input type="text" name="" id="m" minlength="6" maxlength="10" required placeholder="enter your mobile number">
+      <button onclick="register()">submit</button>
+   </fieldset> -->
+<!-- </form>
+<div style="border: 1px solid red; width: 40%;">
+   <h1 id="na"></h1>
+   <h1 id="pa"></h1>
+   <h1 id="mo"></h1>
+</div>
+</center> -->
+<!-- <button onclick="sujit()">click here</button> -->
+<script type="text/javascript">
+	// document.write("<h1>welcome to <u>javascript</u></h1>");  to wirte on the brawsers page
+
+	               // functions                                 // like modal
+	// alert("something weats wrong");                                                                   like modal 
+	// console.log("main line deffect");                                        						 on brawser page when inspect
+	// confirm("login"); confermation popap                                                              like modal
+	// prompt("Enter your name","Rohan samadhan yelpale ");                                                 like modal
+	// prompt("Enter your user id","");
+	             // end of function
+              // add oparands and display on the brawser
+          // var a=10;
+          // a+=10;
+          // var b=29;
+          // var z=a-b;
+          // document.getElementById('box').innerHTML=a;
+
+                   // getdata and set data
+	// var a=document.getElementById('box').innerHTML;
+	// document.getElementById('box').innerHTML=a;
+	// var b=document.getElementsByClass('box')[0].innerHTML;
+	// document.getElementsByClass('box')[0].innerHTML=b + " and welcome to the from validation";
+	                
+	          // end of getdata and setdata
+                // comparision oparator
+                // (==,!=,<,>,<=,>=)
+
+// exmaples:
+        // var a=20;
+        // var b=13;
+        // z= a>b;
+        // document.getElementById('box').innerHTML=z;
+
+           // logical and tarnery oparater
+           // logical-&&=tt=t,tf=f,ft=f,ff=f          ternery-|| tt=t tf=t ft=t ff=f
+            // var a=true;
+            // var b=false;
+            // z=a&&b;
+            // document.getElementById('box').innerHTML=z;
+            // tarner oparator
+            //    var a=1;
+            // var b=0;
+            // z=a||b;
+            // var a=23;
+            // var b=12;
+            // var z;
+            // z= a < b ? "a is not less" : "a is greater";
+            // document.getElementById('box').innerHTML=z;
+    
+           //  var a=prompt("Enter the marks");
+           //          var c=a;
+           //  if(a<=100){
+           //     if(a<35){
+           //          alert("you are failed");
+           //     }
+           //     else if(a==35){
+           //        alert("you are catav pass");
+
+           //     }
+           //     else{
+           //        alert("you are pass");
+           //     }
+            
+           //  }
+           //  else{
+           //     alert("enter correct marks");
+           //  }
+           //  document.write(c)
+           // 
+
+
+           // form and its validation
+           
+            // function register(){
+            //    var name=document.getElementById('n').value;
+            //    var password=document.getElementById('p').value;
+            //    var mobile=document.getElementById('m').value;
+
+
+            // if(name== null || name=="" || password== null || password=="" || mobile== null || mobile==""){
+            //       alert("please enter your detial");
+            //     }
+            //     else{
+            //       document.getElementById('na').innerHTML="Name:"+name;
+            //     document.getElementById('pa').innerHTML="Password:"+password;
+            //     document.getElementById('mo').innerHTML="Mobile:" +mobile;
+            //     }
+
+
+            // }
+
+// //
+
+
+                     // Bomb model
+
+                     // function.anatherpage(){
+                     //    window.location.href="pratik.html";
+                     // } 
+
+
+    // we can study the globle veriable and local veriable
+
+
+               // var d=20                              globle veriable
+               // function anatherpage(){
+               //    var a=10;                          local veriable
+               //    console.log(d);
+               // }
+
+   // here we can declear the sum veraible but the value of a=50 will be printed 
+                                  
+                           // var a=10;
+                           // var a=50;
+                           // console.log(a)
+
+// let-takes only one time declearation but we use the same but it can print only last veriable that we will declear at last
+
+                        // let b=100;
+                        //  b=300;
+                        // console.log(b)
+
+           // const-it can always constant veriable we connot 
+                      
+
+                      // const r=10;
+                      //  t=21;
+                      // console.log(r)
+
+            console.log(sujit());
+ 
+     function sujit(){
+      console.log("hello jyarya");
+      console.log("hello welcome to jyaryas home");
+       return "sujit";
+     }
+
+
+
+    </script>
+</body>
+</html>

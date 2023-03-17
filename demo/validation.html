@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>validation</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+	<div class="box"><form id="form">
+		<h2>Student ragistretion form</h2>
+		<labal> Name:</labal>
+		<input type="text" placeholder="enter your name...." id="name"><br>
+		<labal>Age:</labal>
+		<input type="number" placeholder="enter your age..." id="age"><br>
+		<input type="submit" class="button">
+		</form>
+	</div>
+	
+	
+
+</body>
+<script >
+	var form=document.getElementById('form');
+	var error=[]
+	form.addEventListener('submit',function(e)
+		{
+			e.preventDefault()
+			var name= document.getElementById('name')
+			var age= document.getElementById('age')
+			if(name.value==""||age.value==""){
+				alert("please enter your details")
+			}
+			else{
+				confirm("Are you confirm to submit the form?")
+			}
+		});
+
+	
+</script>
+</html>

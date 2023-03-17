@@ -1,0 +1,66 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bulb</title>
+	<style type="text/css">
+		#box{
+			padding-top: 100px;
+		}
+		#on{
+			background: blue;
+			border: 1px solid black;
+			color: white;
+			font-weight: 500;
+			padding: 5px 30px;
+			border-radius: 10px;
+		}
+		#off{
+			background: blue;
+			border: 1px solid black;
+			color: white;
+			font-weight: 500;
+			padding: 5px 30px;
+			border-radius: 10px;
+		}
+		img/bulb2.png{
+			width: 250px;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="box">
+		<center>
+		<img id="bulboff"  src="img/bulb2.png" height="300" width="200">
+		
+		
+		
+		<div id="btn">
+			<br>
+			<br>
+		<button type="button" id="on" onclick="lighton()" >on</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="button" id="off" onclick="lightoff()">off</button>
+	</div>
+</center>
+	</div>
+
+</body>
+<script type="text/javascript">
+	document.getElementById('box').style.height="100vh";
+	document.getElementById('box').style.width="100%";
+	document.getElementById('box').style.border="2px solid red";
+	document.getElementById('box').style.background="black";
+
+	function lighton() {
+		
+		document.getElementById('bulboff').src="img/bulb3.png";
+	}
+	function lightoff(){
+		document.getElementById('bulboff').src="img/bulb2.png";
+	}
+
+
+</script>
+</html>
